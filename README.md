@@ -17,7 +17,9 @@ Or install it yourself as:
     $ gem install copyright_footer_generator
 
 ## Usage
-
+```ruby
+@copyright = CopyrightFooterGenerator::Renderer.copyright "MSN","All rights reserved"
+```
 
 ## Development
 
